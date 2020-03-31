@@ -1,0 +1,25 @@
+# https://aka.ms/yaml
+
+trigger:
+- master
+ 
+jobs:
+- job: RunTest1
+  displayName: 'Run Tests'
+  pool:
+    vmImage: 'vs2017-win2016'
+  steps:              
+  - task: VisualStudioTestPlatformInstaller@1
+    displayName: 'Visual Studio Test Platform Installer'
+    inputs:
+      versionSelector: specificVersion
+      testPlatformVersion: 15.9.1
+ 
+  - task: VSTest@2
+    inputs:
+      testSelector: 'testAssemblies'
+      testAssemblyVer2: '**/*.dll'
+      uiTests: true
+      searchFolder: '$(System.DefaultWorkingDirectory)\bin\Debug\'
+      vsTestVersion: toolsInstaller
+
