@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSDrivenCodedUITest", "DSDrivenCodedUITest\DSDrivenCodedUITest.csproj", "{177B65AB-D7CF-44C6-ABDE-CD551B9BAE1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{177B65AB-D7CF-44C6-ABDE-CD551B9BAE1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{177B65AB-D7CF-44C6-ABDE-CD551B9BAE1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{177B65AB-D7CF-44C6-ABDE-CD551B9BAE1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{177B65AB-D7CF-44C6-ABDE-CD551B9BAE1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6127DAA4-DF8A-4FD0-A7BB-E200DA1E2DE2}
+	EndGlobalSection
+EndGlobal
