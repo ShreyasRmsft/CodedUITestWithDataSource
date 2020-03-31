@@ -20,6 +20,6 @@ jobs:
       testSelector: 'testAssemblies'
       testAssemblyVer2: '**/*.dll'
       uiTests: true
-      searchFolder: '$(System.DefaultWorkingDirectory)\bin\Debug\'
+      searchFolder: '$(System.DefaultWorkingDirectory)\CodedUITestWithDataSource\DSDrivenCodedUITest\bin\Debug\'
       vsTestVersion: toolsInstaller
 
