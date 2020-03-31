@@ -6,8 +6,7 @@ using System.Windows.Forms;
 using System.Drawing;
 using Microsoft.VisualStudio.TestTools.UITesting;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Microsoft.VisualStudio.TestTools.UITest.Extension;
-using Keyboard = Microsoft.VisualStudio.TestTools.UITesting.Keyboard;
+
 
 
 namespace DSDrivenCodedUITest
@@ -22,8 +21,9 @@ namespace DSDrivenCodedUITest
         {
         }
 
+
         
-        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", "|DataDirectory|\\DSource.csv", "DSource#csv", DataAccessMethod.Sequential), DeploymentItem("DSource.csv"), TestMethod]   
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.TestCase", "https://dev.azure.com/dinchi;VsTest", "3", DataAccessMethod.Sequential), TestMethod]
         public void CodedUITestMethod1()
         {
             // To generate code for this test, select "Generate Code for Coded UI Test" from the shortcut menu and select one of the menu items.
