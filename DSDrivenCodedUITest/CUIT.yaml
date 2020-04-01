@@ -22,3 +22,7 @@ jobs:
       searchFolder: '$(System.DefaultWorkingDirectory)\DSDrivenCodedUITest\bin\Debug\'
       vsTestVersion: toolsInstaller
 
+  - task: ScreenResolutionUtility@1
+    inputs:
+      displaySettings: 'optimal'
+
