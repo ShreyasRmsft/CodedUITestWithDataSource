@@ -26,7 +26,7 @@ jobs:
       testAssemblyVer2: '**/*.dll'
       uiTests: true
       searchFolder: '$(System.DefaultWorkingDirectory)\DSDrivenCodedUITest\bin\Debug\'
-      vsTestVersion: toolsInstaller
+      vsTestVersion: latest
 
   
 
